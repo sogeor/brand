@@ -18,7 +18,7 @@ The Sogeor mark is the letter S turned 90° to the right and drawn as an infinit
 ## Background
 
 | Path | Contents |
-|---|---|
+| --- | --- |
 | `logo/svg/sogeor-mark-{black,white,red}.svg` | the mark on a transparent background |
 | `logo/svg/sogeor-avatar-*.svg` | the mark on a square background: avatars, app icons |
 | `logo/svg/sogeor-favicon.svg` | heavier line for sizes up to 64 px |
