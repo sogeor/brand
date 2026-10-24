@@ -1,7 +1,7 @@
 # Colors
 
 | Name | HEX | RGB | Pantone (nearest) | Use |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Sogeor Red | `#E5261F` | 229 38 31 | 485 C | the mark, accents, links on dark backgrounds |
 | Black | `#000000` | 0 0 0 | Black 6 C | backgrounds, the mark on light backgrounds |
 | White | `#FFFFFF` | 255 255 255 | — | text and the mark on dark backgrounds |
