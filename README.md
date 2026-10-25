@@ -1,5 +1,8 @@
 # brand
 
+[![CI](https://github.com/sogeor/brand/actions/workflows/lint.yml/badge.svg)](https://github.com/sogeor/brand/actions/workflows/lint.yml)
+[![Release](https://img.shields.io/github/v/release/sogeor/brand?sort=semver)](https://github.com/sogeor/brand/releases)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/sogeor/brand/badge)](https://scorecard.dev/viewer/?uri=github.com/sogeor/brand)
 [![License: source-available](https://img.shields.io/badge/license-source--available-informational)](LICENSE)
 
 > Sogeor brand assets: logo, colors and usage guidelines
@@ -8,12 +11,18 @@ The Sogeor mark is the letter S turned 90° to the right and drawn as an infinit
 
 ## Table of Contents
 
+- [Security](#security)
 - [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
+- [Development](#development)
 - [Maintainers](#maintainers)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Security
+
+Report vulnerabilities privately as described in the [security policy](https://github.com/sogeor/.github/blob/HEAD/SECURITY.md). This repository holds no secrets; never commit them in plain text.
 
 ## Background
 
@@ -25,6 +34,7 @@ The Sogeor mark is the letter S turned 90° to the right and drawn as an infinit
 | `logo/png/` | PNG at 1024, 512 and 256 px; favicons 16–192 px; `apple-touch-icon.png` |
 | `logo/favicon.ico` | 16, 32 and 48 px |
 | `social-preview/` | GitHub social preview template and renderer |
+| `scripts/` | generators of every logo file |
 | [colors.md](colors.md) | palette |
 | [TRADEMARKS.md](TRADEMARKS.md) | how the name and the mark may be used |
 
@@ -53,14 +63,23 @@ social-preview/render.sh workflows "Reusable GitHub Actions workflows for Sogeor
 
 Use the black mark for documents and trademark filings, the red mark on black or white for the product. Keep clear space around the mark of at least one loop height.
 
+## Development
+
+```bash
+pre-commit install          # gitleaks, linters, secret checks
+pre-commit run --all-files
+```
+
 ## Maintainers
 
 [Sogeor maintainers](https://github.com/orgs/sogeor/teams/maintainers)
 
 ## Contributing
 
-Changes to the mark are made only by the maintainers. Fixes to the scripts and documentation are welcome; read the [contributing guidelines](https://github.com/sogeor/.github/blob/HEAD/CONTRIBUTING.md).
+Issues and pull requests are welcome. Read the [contributing guidelines](https://github.com/sogeor/.github/blob/HEAD/CONTRIBUTING.md) and the [Code of Conduct](https://github.com/sogeor/.github/blob/HEAD/CODE_OF_CONDUCT.md). Pull request titles follow [Conventional Commits](https://www.conventionalcommits.org/); first-time contributors sign the [CLA](https://github.com/sogeor/.github/blob/HEAD/CLA.md).
+
+Changes to the mark are made only by the maintainers; fixes to the scripts and documentation are welcome.
 
 ## License
 
-© 2026 Georgii Sopin. Files: [Sogeor License 1.0](LICENSE) (English and Russian; the Russian version prevails). The name and the mark are trademarks; see [TRADEMARKS.md](TRADEMARKS.md).
+© 2026 Georgii Sopin. [Sogeor License 1.0](LICENSE) (English and Russian; the Russian version prevails) — you may read the files and contribute, but not copy, redistribute or reuse them. The name and the mark are trademarks; see [TRADEMARKS.md](TRADEMARKS.md).
