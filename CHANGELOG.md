@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.2](https://github.com/sogeor/brand/compare/v1.0.1...v1.0.2) (2026-10-28)
+
+
+### Changed
+
+* update github/codeql-action digest to 9b32540 ([#27](https://github.com/sogeor/brand/issues/27)) ([46970e9](https://github.com/sogeor/brand/commit/46970e9c45648c105ce733a15b9d7a82a5206f5a))
+* update pre-commit hook davidanson/markdownlint-cli2 to v0.24.0 ([#26](https://github.com/sogeor/brand/issues/26)) ([c9c2abc](https://github.com/sogeor/brand/commit/c9c2abc6529ff2c539ab57f4281ade1b8481d515))
+* update sogeor/workflows action to v1.3.2 ([#23](https://github.com/sogeor/brand/issues/23)) ([102cbb9](https://github.com/sogeor/brand/commit/102cbb9b5a872122a6e62c248356c38a964ea672))
+* update sogeor/workflows action to v1.3.3 ([#25](https://github.com/sogeor/brand/issues/25)) ([8fda2c7](https://github.com/sogeor/brand/commit/8fda2c7ca046f8990d8e3a175ddef002f7998758))
+
 ## [1.0.1](https://github.com/sogeor/brand/compare/v1.0.0...v1.0.1) (2026-10-25)
 
 
